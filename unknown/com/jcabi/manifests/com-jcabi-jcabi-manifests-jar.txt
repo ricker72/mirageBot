@@ -1,0 +1,14 @@
+Build Number: d72a56d
+Project Version: 2.2.0
+Build Date: 2025-08-24T09:26:36Z
+
+ServletMfs.class: 1356
+StringMfs.class: 915
+Manifests.class: 6654
+JakartaServletMfs.class: 1383
+MfMap.class: 579
+Mfs.class: 268
+package-info.class: 125
+FilesMfs.class: 1718
+StreamsMfs.class: 1087
+ClasspathMfs.class: 1429

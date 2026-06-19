@@ -1,0 +1,60 @@
+.class Lcom/badlogic/gdx/graphics/g3d/utils/shapebuilders/BaseShapeBuilder$1;
+.super Lcom/badlogic/gdx/utils/FlushablePool;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/badlogic/gdx/graphics/g3d/utils/shapebuilders/BaseShapeBuilder;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/badlogic/gdx/utils/FlushablePool<",
+        "Lcom/badlogic/gdx/math/Vector3;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/badlogic/gdx/utils/FlushablePool;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method protected newObject()Lcom/badlogic/gdx/math/Vector3;
+    .locals 1
+
+    .line 2
+    new-instance v0, Lcom/badlogic/gdx/math/Vector3;
+
+    invoke-direct {v0}, Lcom/badlogic/gdx/math/Vector3;-><init>()V
+
+    return-object v0
+.end method
+
+.method protected bridge synthetic newObject()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/badlogic/gdx/graphics/g3d/utils/shapebuilders/BaseShapeBuilder$1;->newObject()Lcom/badlogic/gdx/math/Vector3;
+
+    move-result-object v0
+
+    return-object v0
+.end method

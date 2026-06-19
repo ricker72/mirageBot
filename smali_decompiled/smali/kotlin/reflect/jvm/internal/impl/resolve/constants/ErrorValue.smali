@@ -1,0 +1,80 @@
+.class public abstract Lkotlin/reflect/jvm/internal/impl/resolve/constants/ErrorValue;
+.super Lkotlin/reflect/jvm/internal/impl/resolve/constants/ConstantValue;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lkotlin/reflect/jvm/internal/impl/resolve/constants/ErrorValue$Companion;,
+        Lkotlin/reflect/jvm/internal/impl/resolve/constants/ErrorValue$ErrorValueWithMessage;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/reflect/jvm/internal/impl/resolve/constants/ConstantValue<",
+        "LFk5uDlpYd2/vIxzIpyC3XB;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final Companion:Lkotlin/reflect/jvm/internal/impl/resolve/constants/ErrorValue$Companion;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lkotlin/reflect/jvm/internal/impl/resolve/constants/ErrorValue$Companion;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lkotlin/reflect/jvm/internal/impl/resolve/constants/ErrorValue$Companion;-><init>(Lkotlin/jvm/internal/SUvdhJzOFCHwb;)V
+
+    sput-object v0, Lkotlin/reflect/jvm/internal/impl/resolve/constants/ErrorValue;->Companion:Lkotlin/reflect/jvm/internal/impl/resolve/constants/ErrorValue$Companion;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    sget-object v0, LFk5uDlpYd2/vIxzIpyC3XB;->im9htEBxIvc8EvdK1QNb:LFk5uDlpYd2/vIxzIpyC3XB;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, v0}, Lkotlin/reflect/jvm/internal/impl/resolve/constants/ConstantValue;-><init>(Ljava/lang/Object;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public getValue()LFk5uDlpYd2/vIxzIpyC3XB;
+    .locals 1
+
+    .line 2
+    new-instance v0, Ljava/lang/UnsupportedOperationException;
+
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    throw v0
+.end method
+
+.method public bridge synthetic getValue()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/reflect/jvm/internal/impl/resolve/constants/ErrorValue;->getValue()LFk5uDlpYd2/vIxzIpyC3XB;
+
+    move-result-object v0
+
+    return-object v0
+.end method

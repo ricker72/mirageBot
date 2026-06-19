@@ -1,0 +1,44 @@
+Build Number: d358246
+Project Version: 0.24.3
+Build Date: 2024-11-14T00:53:10Z
+
+ColorfullyFormatted.class: 966
+DullyFormatted.class: 747
+TypeDecor.class: 931
+MsDecor.class: 2317
+DecorsManager.class: 4307
+DomDecor.class: 2511
+Supplier.class: 227
+Logger.class: 6065
+VerboseProcess$Monitor.class: 3143
+VerboseThreads$Wrap.class: 1166
+NanoDecor.class: 2205
+ExceptionDecor.class: 1304
+VerboseCallable$1.class: 982
+VerboseRunnable.class: 3160
+ListDecor.class: 2111
+VerboseProcess$Result.class: 822
+ControlSequenceIndicatorFormatted.class: 691
+FileDecor.class: 1792
+VerboseProcess.class: 7482
+TextDecor.class: 1712
+ConversionPattern.class: 2581
+DecorException.class: 855
+package-info.class: 119
+Colors.class: 1933
+SupplierLogger.class: 1886
+ObjectDecor$ArrayFormatAction.class: 1627
+ParseableInformation.class: 1832
+SizeDecor.class: 2560
+ObjectDecor$ObjectContentsFormatAction.class: 2052
+PreFormatter.class: 3473
+ObjectDecor.class: 1331
+ParseableLevelInformation.class: 2045
+Logger$1.class: 1514
+SecretDecor.class: 1716
+Formatted.class: 153
+VerboseRunnable$1.class: 1269
+VerboseThreads.class: 2295
+VerboseCallable.class: 3887
+MulticolorLayout.class: 4248
+VerboseThreads$Group.class: 817
