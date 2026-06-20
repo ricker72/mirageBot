@@ -1,0 +1,194 @@
+{
+  "com.badlogic.gdx.graphics.g2d.BitmapFont": {
+    "default-font": {
+      "file": "defaultfont.fnt"
+    },
+    "map-font": {
+      "file": "mapfont.fnt"
+    }
+  },
+  "com.badlogic.gdx.graphics.Color": {
+    "green": {
+      "a": 1,
+      "b": 0,
+      "g": 1,
+      "r": 0
+    },
+    "white": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "red": {
+      "a": 1,
+      "b": 0,
+      "g": 0,
+      "r": 1
+    },
+    "black": {
+      "a": 1,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "blue": {
+      "a": 1,
+      "b": 1,
+      "g": 0,
+      "r": 0
+    },
+    "yellow": {
+      "a": 1,
+      "b": 0,
+      "g": 1,
+      "r": 1
+    },
+    "orange": {
+      "a": 1,
+      "b": 0,
+      "g": 0.5,
+      "r": 1
+    },
+    "gray": {
+      "a": 1,
+      "b": 0.5,
+      "g": 0.5,
+      "r": 0.5
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable": {
+    "dialogDim": {
+      "name": "white",
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0.45
+      }
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle": {
+    "default": {
+      "down": "default-round-down",
+      "up": "default-round"
+    },
+    "toggle": {
+      "down": "default-round-down",
+      "checked": "default-round-down",
+      "up": "default-round"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+    "default": {
+      "down": "default-round-down",
+      "up": "default-round",
+      "font": "default-font",
+      "fontColor": "white"
+    },
+    "tab": {
+      "down": "default-round-tab-down",
+      "up": "default-round-tab",
+      "font": "default-font",
+      "fontColor": "white"
+    },
+    "toggle": {
+      "down": "default-round-down",
+      "up": "default-round",
+      "checked": "default-round-down",
+      "font": "default-font",
+      "fontColor": "white",
+      "downFontColor": "red"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.Dialog$DialogStyle": {
+    "dialog": {
+      "titleFont": "default-font",
+      "background": "default-pane",
+      "stageBackground": "dialogDim"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle": {
+    "default": {
+      "checkboxOn": "default-round-down",
+      "checkboxOff": "default-round",
+      "font": "default-font",
+      "fontColor": "white"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle": {
+    "default-horizontal": {
+      "background": "default-rect",
+      "knob": "default-round-down",
+      "knobBefore": "default-round-down",
+      "knobDisabled": "default-round"
+    },
+    "default-vertical": {
+      "background": "default-rect",
+      "knob": "default-round-down",
+      "knobBefore": "default-round-down",
+      "knobDisabled": "default-round"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle": {
+    "default": {
+      "font": "default-font",
+      "fontColor": "white",
+      "disabledFontColor": "gray",
+      "background": "default-rect",
+      "scrollStyle": "default",
+      "listStyle": "default"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle": {
+    "default": {
+      "vScroll": "default-round",
+      "hScroll": "default-round",
+      "vScrollKnob": "default-round-down",
+      "hScrollKnob": "default-round-down"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle": {
+    "default": {
+      "fontColorUnselected": "white",
+      "fontColorSelected": "yellow",
+      "selection": "default-rect-down"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+    "default": {
+      "font": "default-font",
+      "fontColor": "white"
+    },
+    "title": {
+      "font": "default-font",
+      "fontColor": "yellow"
+    },
+    "small": {
+      "font": "default-font",
+      "fontColor": "white"
+    },
+    "warning": {
+      "font": "default-font",
+      "fontColor": "orange"
+    },
+    "error": {
+      "font": "default-font",
+      "fontColor": "red"
+    },
+    "success": {
+      "font": "default-font",
+      "fontColor": "green"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle": {
+    "default": {
+      "font": "default-font",
+      "fontColor": "white",
+      "disabledFontColor": "gray",
+      "background": "default-rect",
+      "cursor": "default-rect-down",
+      "selection": "default-rect-down"
+    }
+  }
+}

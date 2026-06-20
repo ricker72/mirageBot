@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="apktool_safe">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apktool_safe.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
