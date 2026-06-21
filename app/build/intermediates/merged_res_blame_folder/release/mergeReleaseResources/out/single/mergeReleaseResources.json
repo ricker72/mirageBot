@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.miragebot.autoactions.app-release-31:/layout_auto_actions_overlay.xml.flat",
+        "source": "com.miragebot.autoactions.app-main-32:/layout/auto_actions_overlay.xml"
+    },
+    {
+        "merged": "com.miragebot.autoactions.app-release-31:/layout_activity_main.xml.flat",
+        "source": "com.miragebot.autoactions.app-main-32:/layout/activity_main.xml"
+    }
+]

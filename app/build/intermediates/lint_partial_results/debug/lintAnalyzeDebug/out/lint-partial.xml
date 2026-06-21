@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.miragebot.autoactions.ui.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.app_name"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="3"
+            column="13"
+            startOffset="65"
+            endLine="3"
+            endColumn="28"
+            endOffset="80"/>
+        <entry
+            name="model"
+            string="id[tvTitle(D),switchAutoHeal(U),tvHealStatus(U),switchAutoMana(U),tvManaStatus(U),switchAutoAttack(U),tvAttackStatus(U),btnEmergencyStop(U),btnClose(U)],layout[activity_main(U),auto_actions_overlay(U)],string[app_name(D)],style[Theme_MaterialComponents_DayNight_NoActionBar(R)];9^a;;;"/>
+    </map>
+
+</incidents>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="conditional_incidents">
+
+    <incident
+        id="ForegroundServicePermission"
+        severity="error"
+        message="foregroundServiceType:specialUse requires permission:[android.permission.FOREGROUND_SERVICE_SPECIAL_USE]">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="24"
+            column="9"
+            startOffset="984"
+            endLine="27"
+            endColumn="58"
+            endOffset="1145"/>
+        <map>
+            <condition targetGE="34"/>
+        </map>
+    </incident>
+
+</incidents>

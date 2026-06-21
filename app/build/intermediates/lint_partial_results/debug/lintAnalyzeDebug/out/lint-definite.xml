@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="incidents">
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.7.3 is available: 9.2.1">
+        <fix-replace
+            description="Change to 9.2.1"
+            family="Update versions"
+            oldString="8.7.3"
+            replacement="9.2.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="2"
+            column="43"
+            startOffset="52"
+            endLine="2"
+            endColumn="50"
+            endOffset="59"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.19.0">
+        <fix-replace
+            description="Change to 1.19.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.19.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="52"
+            column="20"
+            startOffset="1055"
+            endLine="52"
+            endColumn="51"
+            endOffset="1086"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="53"
+            column="20"
+            startOffset="1107"
+            endLine="53"
+            endColumn="56"
+            endOffset="1143"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.14.0">
+        <fix-replace
+            description="Change to 1.14.0"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.14.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="54"
+            column="20"
+            startOffset="1164"
+            endLine="54"
+            endColumn="65"
+            endOffset="1209"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="55"
+            column="20"
+            startOffset="1230"
+            endLine="55"
+            endColumn="70"
+            endOffset="1280"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 26">
+        <fix-data conditional="true"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/miragebot/autoactions/service/AutoActionsService.kt"
+            line="90"
+            column="21"
+            startOffset="3417"
+            endLine="90"
+            endColumn="67"
+            endOffset="3463"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/miragebot/autoactions/service/AutoActionsService.kt"
+            line="101"
+            column="76"
+            startOffset="3988"
+            endLine="101"
+            endColumn="95"
+            endOffset="4007"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/miragebot/autoactions/ui/MainActivity.kt"
+            line="118"
+            column="29"
+            startOffset="4658"
+            endLine="118"
+            endColumn="84"
+            endOffset="4713"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/miragebot/autoactions/ui/MainActivity.kt"
+            line="118"
+            column="30"
+            startOffset="4659"
+            endLine="118"
+            endColumn="36"
+            endOffset="4665"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/miragebot/autoactions/ui/MainActivity.kt"
+            line="119"
+            column="29"
+            startOffset="4742"
+            endLine="119"
+            endColumn="84"
+            endOffset="4797"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/miragebot/autoactions/ui/MainActivity.kt"
+            line="119"
+            column="30"
+            startOffset="4743"
+            endLine="119"
+            endColumn="36"
+            endOffset="4749"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/miragebot/autoactions/ui/MainActivity.kt"
+            line="120"
+            column="31"
+            startOffset="4828"
+            endLine="120"
+            endColumn="90"
+            endOffset="4887"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/miragebot/autoactions/ui/MainActivity.kt"
+            line="120"
+            column="32"
+            startOffset="4829"
+            endLine="120"
+            endColumn="40"
+            endOffset="4837"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;MirageBot v1&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="10"
+            column="9"
+            startOffset="317"
+            endLine="10"
+            endColumn="36"
+            endOffset="344"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Auto Actions&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/auto_actions_overlay.xml"
+            line="10"
+            column="9"
+            startOffset="322"
+            endLine="10"
+            endColumn="36"
+            endOffset="349"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Auto Heal&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/auto_actions_overlay.xml"
+            line="18"
+            column="9"
+            startOffset="628"
+            endLine="18"
+            endColumn="33"
+            endOffset="652"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Heal: Off&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/auto_actions_overlay.xml"
+            line="25"
+            column="9"
+            startOffset="853"
+            endLine="25"
+            endColumn="33"
+            endOffset="877"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Auto Mana&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/auto_actions_overlay.xml"
+            line="32"
+            column="9"
+            startOffset="1122"
+            endLine="32"
+            endColumn="33"
+            endOffset="1146"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Mana: Off&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/auto_actions_overlay.xml"
+            line="39"
+            column="9"
+            startOffset="1347"
+            endLine="39"
+            endColumn="33"
+            endOffset="1371"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Auto Attack&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/auto_actions_overlay.xml"
+            line="46"
+            column="9"
+            startOffset="1618"
+            endLine="46"
+            endColumn="35"
+            endOffset="1644"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Attack: Off&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/auto_actions_overlay.xml"
+            line="53"
+            column="9"
+            startOffset="1847"
+            endLine="53"
+            endColumn="35"
+            endOffset="1873"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;EMERGENCY STOP&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/auto_actions_overlay.xml"
+            line="60"
+            column="9"
+            startOffset="2069"
+            endLine="60"
+            endColumn="38"
+            endOffset="2098"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Close&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/auto_actions_overlay.xml"
+            line="69"
+            column="9"
+            startOffset="2407"
+            endLine="69"
+            endColumn="29"
+            endOffset="2427"/>
+    </incident>
+
+</incidents>
